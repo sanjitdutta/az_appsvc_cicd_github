@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HelloController {
     @GetMapping("/hello")
     public String sayHello(){
-        return "My First SpringBoot App";
+        return "My First SpringBoot Ap that will be used to deploy at azure appservice using Git Hub Action";
     }
     
     }
