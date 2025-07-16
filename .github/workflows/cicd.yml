@@ -1,4 +1,4 @@
-name: Deploy Spring Boot App to Azure App Services using GIT HUB My Slot Dev1
+name: Deploy Spring Boot App to Azure App Services using GIT HUB My Slot Dev2
 
 on:
  push:
