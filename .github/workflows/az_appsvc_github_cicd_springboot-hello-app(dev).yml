@@ -51,4 +51,4 @@ jobs:
           app-name: 'springboot-hello-app'
           slot-name: 'dev'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_381F3DD5D7EC4EEB9C856480476F0160 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_51C6FB5875C24A8F92B782C907641FB6 }}
