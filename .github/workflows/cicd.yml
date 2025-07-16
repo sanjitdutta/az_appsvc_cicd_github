@@ -42,7 +42,7 @@ jobs:
       - name: Deploy to Azure App Service dev slot
         uses: azure/webapps-deploy@v3
         with:
-          app-name: springboot-hello-app
+          app-name: springboot-test-app
           slot-name: dev
           publish-profile: ${{ secrets.azureWebAppPublishProfile }}
           package: '/target/*.jar'
